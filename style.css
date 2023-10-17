@@ -80,5 +80,37 @@ li a:hover {
 }
 
 
-/* main */
+/* Styles for the sponsor container */
+.sponsor-container {
+  background-color: #f5f5f5; /* Gray background color */
+  padding: 20px; /* Add padding for spacing */
+  text-align: center; /* Center-align the content */
+}
+
+.sponsor-heading {
+  font-size: 24px;
+}
+
+/* Styles for the sponsor entries */
+.sponsor {
+  display: inline-block; /* Display sponsors side by side */
+  margin: 20px; /* Add spacing between sponsors */
+  text-align: center; /* Center-align the sponsor and name */
+}
+
+/* Styles for the sponsor images */
+.sponsor-images {
+  white-space: nowrap; /* Prevent line break between sponsors */
+}
+
+.sponsor img {
+  max-width: 150px; /* Set a maximum width for sponsor images */
+}
+
+/* Styles for the sponsor names */
+.sponsor-name {
+  font-size: 16px;
+  margin-top: 10px; /* Add spacing between image and name */
+}
+
 
