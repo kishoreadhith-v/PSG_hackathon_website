@@ -1,7 +1,3 @@
-const regButton = document.querySelector('.reg');
-regButton.addEventListener('click', function() {
-  alert('You have registered for the event!');
-});
 
 const movingText = document.querySelector('.moving-text');
 const topText = document.querySelector('.logo-text-top');
@@ -20,3 +16,4 @@ document.addEventListener('mousemove', (e) => {
     topText.style.transform = `translateX(${moveTop}px)`;
     bottomText.style.transform = `translateX(${moveBottom}px)`;
 });
+
