@@ -11,29 +11,38 @@
 </head>
 
 <body>
-    <nav>
-        <div class="moving-text">
-            <p class="logo-text-top">Hackathon</p>
-            <p class="logo-text-bottom">Hackathon</p>
-        </div>
-        <button class="nav-button">Menu</button>
+  <nav>
+    <div class="nav-header">
+      <div class="moving-text">
+        <p class="logo-text-top">Hackathon</p>
+        <p class="logo-text-bottom">Hackathon</p>
+      </div>
+    </div>
+    <div class="mobile-logo">
+      Hackathon
+    </div>
+    <input type="checkbox" id="checkbox">
+    <label for="checkbox" class="toggle">
+        <div class="bars" id="bar1"></div>
+        <div class="bars" id="bar2"></div>
+        <div class="bars" id="bar3"></div>
+    </label>
 
-        <!-- sponsors-->
-        <!-- timeline -->
-        <!-- problem statements -->
-        <!-- rules and faq -->
-        <!-- prizes -->
-        <!-- schedule -->
-        <ul class="navbar">
-            <li><a href="#sponsors">Sponsors</a></li>
-            <li><a href="#timeline">Timeline</a></li>
-            <li><a href="#problem">Problem statements</a></li>
-            <li><a href="#rules">Rules and FAQ</a></li>
-            <li><a href="#prizes">Prizes</a></li>
-            <li><a href="#schedule">Schedule</a></li>
-        </ul>
-        
-    </nav>
+
+
+
+    <!-- Move the nav-links inside the nav element -->
+    <div class="nav-links">
+        <a href="#">Sponsors</a>
+        <a href="#">Timeline</a>
+        <a href="#">Problem Statements</a>
+        <a href="#">Rules & FAQ</a>
+        <a href="#">Prizes</a>
+        <a href="#">Schedule</a>
+    </div>
+  </nav>
+
+
     <!-- <h2 class="capcha">CODE.COMPILE.EXECUTE</h2>
     <button class="reg">Register button</button>
     <h2 class="pp">Prize Pool</h2>
@@ -68,6 +77,39 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="mobile-hero">
+          <div class="mobile-hero-bg">
+            <div class="terminal-container">
+              <div class="terminal_toolbar">
+                  <div class="butt">
+                      <button class="btn btn-color"></button>
+                      <button class="btn"></button>
+                      <button class="btn"></button>
+                  </div>
+                  <p class="user">you@admin: ~</p>
+                  <div class="add_tab">
+                      +
+                  </div>
+              </div>
+              <div class="terminal_body">
+                  <div class="terminal_promt">
+                      <span class="terminal_user">you@admin:</span>
+                      <span class="terminal_location">~</span>
+                      <span class="terminal_bling">$ touch index.ts</span>
+                  </div>
+                  <div class="terminal_promt">
+                      <span class="terminal_user">you@admin:</span>
+                      <span class="terminal_location">~</span>
+                      <span class="terminal_bling">$</span>
+                      <span class="terminal_cursor"></span>
+                  </div>
+              </div>
+          </div>
+            <h1 class="mobile-hero-title">place holder</h1>
+            <button class="reg-btn"> Register</button>
+
+          </div>
         </div>
         <div class="sponsor-container">
             <h2 class="sponsor-heading">Our Sponsors</h2>
