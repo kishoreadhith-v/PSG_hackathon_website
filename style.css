@@ -980,3 +980,60 @@ nav > #nav-check {
   transform: translate(0.05em, 0.05em);
   box-shadow: 0.05em 0.05em;
 }
+
+ /* Styling for the dropdown container */
+ .dropdown-container {
+  display: flex;
+  justify-content: flex-end; /* Move the button to the right by default */
+  align-items: center;
+}
+
+/* Styling for the dropdown */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown.active .dropdown-content {
+  display: block;
+}
+
+.dropdown-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.dropdown-content ul li {
+  padding: 5px;
+  transition: background-color 0.2s; /* Add a transition for highlighting */
+}
+
+.dropdown-content ul li:hover {
+  background-color: #ccc; /* Highlight the item on hover */
+}
+
+/* Media query for mobile screens */
+@media screen and (max-width: 600px) {
+  .dropdown-container {
+      justify-content: flex-end; /* Move the button to the left for mobile */
+  }
+
+  .dropdown {
+      display: block;
+  }
+
+  .dropdown-content {
+      position: static;
+      display: none;
+      background-color: transparent;
+      box-shadow: none;
+  }
+}

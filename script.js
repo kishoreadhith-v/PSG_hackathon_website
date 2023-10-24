@@ -17,3 +17,9 @@ document.addEventListener('mousemove', (e) => {
     bottomText.style.transform = `translateX(${moveBottom}px)`;
 });
 
+const checkbox = document.getElementById("checkbox");
+        const dropdown = document.querySelector(".dropdown");
+
+        checkbox.addEventListener("click", function () {
+            dropdown.classList.toggle("active");
+        });
